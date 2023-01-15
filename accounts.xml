@@ -1,0 +1,30 @@
+<root>
+  <day20200924>
+    <NATURALGAS>
+      <BUY1>165.7</BUY1>
+      <SELL2>165.2</SELL2>
+      <SELL3>165.1</SELL3>
+      <BUY4>165.2</BUY4>
+      <BUY5>165.6</BUY5>
+      <SELL6>166.8</SELL6>
+    </NATURALGAS>
+    <PRODUCT_MIS>
+      <NATURALGAS>
+        <SELL1>165.8</SELL1>
+        <BUY2>165.2</BUY2>
+        <SELL3>165.4</SELL3>
+        <BUY4>165.6</BUY4>
+        <SELL5>165.9</SELL5>
+        <BUY6>165.9</BUY6>
+      </NATURALGAS>
+    </PRODUCT_MIS>
+    <PRODUCT_NRML>
+      <NATURALGAS>
+        <BUY1>165.9</BUY1>
+        <SELL2>165.8</SELL2>
+        <BUY3>165.1</BUY3>
+        <SELL4>165.9</SELL4>
+      </NATURALGAS>
+    </PRODUCT_NRML>
+  </day20200924>
+</root>
