@@ -1,0 +1,33 @@
+Problem Statement: Need for an automated tool to execute option trading strategies while minimizing risk.
+
+Fishbone Analysis:
+1.Manpower: Lack of skilled manpower to execute option trading strategies
+2.Limited availability of experienced traders
+3.High cost of hiring experienced traders
+4.Market conditions: Volatility of market conditions affecting option trading strategies
+5.Uncertainty in market trends
+6.Fluctuations in asset prices
+7.Tools and technology: Inadequate tools and technology to automate option trading strategies
+8.Lack of reliable automation tools
+9.Limited access to real-time market data
+10.Regulations: Regulatory compliance affecting option trading strategies
+11.Compliance with trading rules and regulations
+12.Limitations on trading options
+13.User experience: Complex trading strategies and lack of user-friendly tools affecting option trading
+14.Complexity of trading strategies
+15.Difficulty in navigating trading platforms
+
+Proposed Solution:
+1.Develop a Python script that automates the execution of option trading strategies
+2.Utilize a simple text file as a database to store necessary information about the trading strategies and market conditions
+3.Use real-time market data to monitor market conditions and execute trades based on predefined criteria
+4.Develop a user-friendly interface that allows users to customize trade execution parameters and easily navigate the application.
+5.Provide a user guide that explains how to use the application and customize the trade execution parameters.
+6.Develop sample text file database containing predefined trading strategies and market conditions for users to test the application.
+
+Conclusion:
+The fishbone analysis highlights the challenges associated with executing option trading strategies manually and identifies the need for an automated tool that can minimize risk and enhance efficiency. The proposed solution aims to address these challenges by developing a Python script that automates option trading strategies using a simple text file as a database and real-time market data. The user-friendly interface and user guide will make the application accessible to novice traders, thereby reducing the reliance on skilled manpower.
+
+
+
+
