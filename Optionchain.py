@@ -1,17 +1,35 @@
 import requests
+import json
 
-# Endpoint for fetching the option chain
-url = "https://www.nseindia.com/api/option-chain-equity?symbol=INFY"
-
-# Make the request
+# Get the option chain for INFY next month contract
+url = "https://api.nseindia.com/option-chain/ohlc/?symbol=INFY&expiry=2023-06-24"
 response = requests.get(url)
+data = json.loads(response.content)
 
-# Check if the request was successful
-if response.status_code == 200:
-    # The response body contains the option chain data
-    data = response.json()
+# Get the call and put options with the highest open interest
+call_options = []
+put_options = []
+for option in data["data"]:
+    if option["openInterest"] > 0:
+        if option["type"] == "CE":
+            call_options.append(option)
+        else:
+            put_options.append(option)
 
-    # Print the option chain data
-    print(data)
-else:
-    print("Request failed with status code:", response.status_code)
+# Get the call and put premiums
+call_premium = call_options[0]["premium"]
+put_premium = put_options[0]["premium"]
+
+# Get the lot size
+lot_size = data["metadata"]["lotSize"]
+
+# Get the margin amount as per SEBI
+margin_amount_call = lot_size * call_premium * 0.2
+margin_amount_put = lot_size * put_premium * 0.2
+
+print("Call premium:", call_premium)
+print("Put premium:", put_premium)
+print("Lot size:", lot_size)
+print("Margin amount for selling call option:", margin_amount_call)
+print("Margin amount for selling put option:", margin_amount_put)
+
