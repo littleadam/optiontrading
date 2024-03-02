@@ -7,4 +7,4 @@ The project uses machine language algorithm to check the daily, monthly trend, r
 
 it finds the probability of success for the given set of trades and cumulative Stoploss
 
-upcoming enhancements: OI analysis and trend prediction
+upcoming enhancements: OI analysis and trend prediction using AI
