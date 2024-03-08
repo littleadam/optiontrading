@@ -1,7 +1,7 @@
 import requests
 import json
 
-# Get the option chain for INFY next month contract
+# Get the option chain for INFY next month ,current year contract 
 url = "https://api.nseindia.com/option-chain/ohlc/?symbol=INFY&expiry=2023-06-24"
 response = requests.get(url)
 data = json.loads(response.content)
