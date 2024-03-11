@@ -16,7 +16,7 @@ for option in data["data"]:
         else:
             put_options.append(option)
 
-# Get the call and put premiums
+# fetch put and call premium
 call_premium = call_options[0]["premium"]
 put_premium = put_options[0]["premium"]
 
