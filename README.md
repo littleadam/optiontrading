@@ -1,4 +1,4 @@
-Project to run option trading using dynami user configuration with options for hedged and open strategies
+Project to run option trading deploying dynamic user configuration with options for hedged and open strategies
 
 The strategies include long and short straddle and strangles, hedged buy, covered call etc
 the project considers multi level protection for the investment 
