@@ -1,7 +1,5 @@
-Epic: Option Trading Strategies Automation using Python
-
+Epic: Option Trading Strategies Automation (Python) 
 User Stories:
-
 1.As a trader, I want to be able to execute option trading strategies such as straddles and strangles automatically so that I can save time and minimize risk.
 Acceptance Criteria: The application must execute option trading strategies automatically based on predefined market conditions and user-defined trade execution parameters.
 
