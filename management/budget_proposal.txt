@@ -28,6 +28,7 @@ Contingency Fund: $5,000
 Total Miscellaneous Expenses = $10,000
 
 Grand Total = Personnel Costs + Software and Tools Costs + Marketing and Advertising Costs + Miscellaneous Expenses
+====================================
 Grand Total = $66,000 + $4,000 + $16,000 + $10,000
 Grand Total = $96,000
 
